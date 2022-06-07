@@ -1,0 +1,98 @@
+.menu {
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom,#00000080,#00000080), url('/src/assets/pizzaMenu.png') no-repeat fixed center top;  
+    background-size: cover;
+  }
+
+
+  .menu .menuTitle {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 10;
+    font-size: 50px;
+    margin-left: 30px;
+    color:white;
+  }
+  .menuList {
+    width: 80vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+  /* MENU ITEM STYLING */
+  
+  .menuItem {
+    border-radius: 15px;
+    width: 320px;
+    color: rgba(255, 255, 255, 0.7);
+    height: 420px;
+    margin: 10px;
+    box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.1);
+    background-color: #00000080;
+  }
+  .menuItem:hover {
+    box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.7);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .menuItem img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 80%;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin: 5px;
+    position: relative;
+    left: 10%;
+    object-fit: cover;
+  }
+  
+  .menuItem h1{
+    font-size: xx-large;
+    text-align: center;
+    margin: 5px;  
+  }
+
+  .menu h2 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 10;
+    font-size: 20px;
+    margin-left: 30px;
+    color:rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+  }
+
+  .menuItem h3 {
+    display: flex;
+    font-size: large;
+    position: relative;
+    top:10%;
+    left: 10%;
+    margin-left: 5px;
+    justify-content: baseline;
+
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .menuList {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 900px) {
+    .menuList {
+      grid-template-columns: 1fr;
+    }
+  }
+

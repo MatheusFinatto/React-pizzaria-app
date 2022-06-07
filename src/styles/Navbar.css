@@ -1,0 +1,21 @@
+.navbar{
+  padding: 50px;
+}
+
+
+  .navbar .leftSide {
+display: flex;
+flex: 80%;
+ 
+  }
+
+  .navbar .leftSide img {
+    width: 65px;
+    border-radius: 50%;
+  } 
+
+  #links{
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+  }
