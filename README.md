@@ -1,5 +1,5 @@
 <body>
-	<h1>My First React App - Mario's Pizzerria</h1>
+	<h1>My First React App - Mario's Pizzeria</h1>
 	<p>Welcome to my Pizza Website, a React app that I created to showcase my skills in front-end development. The website features a menu, about, homepage, and contact pages, all beautifully designed with CSS. The app was originally hosted on Heroku, but since that platform is no longer free, it cannot be accessed anymore. However, you yet can run the app locally.</p>
 	<h2>How to Run the App</h2>
 	<p>To run the app locally, follow these steps:</p>
